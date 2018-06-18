@@ -18,7 +18,6 @@
   -->
 
 <resources>
-
     <style name="ThemeDark" parent="Theme.AppCompat"/>
 
     <style name="ThemeDarkNoActionBar" parent="ThemeDark">

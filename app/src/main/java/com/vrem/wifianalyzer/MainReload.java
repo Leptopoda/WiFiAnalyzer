@@ -19,6 +19,7 @@
 package com.vrem.wifianalyzer;
 
 import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatDelegate;
 
 import com.vrem.wifianalyzer.settings.Settings;
 import com.vrem.wifianalyzer.settings.ThemeStyle;
@@ -26,6 +27,9 @@ import com.vrem.wifianalyzer.wifi.accesspoint.AccessPointViewType;
 import com.vrem.wifianalyzer.wifi.accesspoint.ConnectionViewType;
 
 import java.util.Locale;
+
+import static android.support.v7.app.AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM;
+import static android.support.v7.app.AppCompatDelegate.MODE_NIGHT_YES;
 
 class MainReload {
     private ThemeStyle themeStyle;
@@ -67,10 +71,15 @@ class MainReload {
     }
 
     private boolean isThemeChanged(Settings settings) {
-        ThemeStyle settingThemeStyle = settings.getThemeStyle();
-        boolean themeChanged = !getThemeStyle().equals(settingThemeStyle);
+        //ThemeStyle settingThemeStyle = settings.getThemeStyle();
+        boolean themeChanged = !getThemeStyle().equals(settings.getThemeStyle());
         if (themeChanged) {
-            setThemeStyle(settingThemeStyle);
+            if (settings.getThemeStyle() == ThemeStyle.DARK){
+                //setThemeStyle(settingThemeStyle);
+                AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_YES);
+            }else{
+                AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_FOLLOW_SYSTEM);
+            }
         }
         return themeChanged;
     }
