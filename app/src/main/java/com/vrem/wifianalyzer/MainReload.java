@@ -47,6 +47,7 @@ class MainReload {
     }
 
     boolean shouldReload(@NonNull Settings settings) {
+
         return isThemeChanged(settings) || isAccessPointViewChanged(settings)
             || isConnectionViewTypeChanged(settings) || isGraphMaximumYChanged(settings)
             || isLanguageChanged(settings);
@@ -71,16 +72,8 @@ class MainReload {
     }
 
     private boolean isThemeChanged(Settings settings) {
-        //ThemeStyle settingThemeStyle = settings.getThemeStyle();
         boolean themeChanged = !getThemeStyle().equals(settings.getThemeStyle());
-        if (themeChanged) {
-            if (settings.getThemeStyle() == ThemeStyle.DARK){
-                //setThemeStyle(settingThemeStyle);
-                AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_YES);
-            }else{
-                AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_FOLLOW_SYSTEM);
-            }
-        }
+
         return themeChanged;
     }
 

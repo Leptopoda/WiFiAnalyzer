@@ -18,19 +18,7 @@
   -->
 
 <resources>
-    <style name="ThemeDark" parent="Theme.AppCompat"/>
-
-    <style name="ThemeDarkNoActionBar" parent="ThemeDark">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
     <style name="ThemeSystem" parent="Theme.AppCompat.DayNight.DarkActionBar"/>
-
-    <style name="ThemeSystemNoActionBar" parent="ThemeSystem">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
 
     <style name="ThemeOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 

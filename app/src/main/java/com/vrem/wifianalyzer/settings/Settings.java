@@ -35,11 +35,12 @@ import com.vrem.wifianalyzer.wifi.model.Strength;
 
 import java.util.HashSet;
 import java.util.Locale;
+import java.util.Objects;
 import java.util.Set;
 
 import static android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 
-public class Settings {
+public class Settings extends Objects implements {
     static final int GRAPH_Y_MULTIPLIER = -10;
     static final int GRAPH_Y_DEFAULT = 2;
 

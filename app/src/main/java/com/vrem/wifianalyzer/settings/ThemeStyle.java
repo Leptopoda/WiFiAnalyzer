@@ -19,13 +19,14 @@
 package com.vrem.wifianalyzer.settings;
 
 import android.support.annotation.StyleRes;
+import android.support.v7.app.AppCompatDelegate;
 
 import com.vrem.wifianalyzer.MainContext;
 import com.vrem.wifianalyzer.R;
 
 public enum ThemeStyle {
     DARK(R.style.ThemeDark, R.style.ThemeDarkNoActionBar),
-    SYSTEM(R.style.ThemeSystem, R.style.ThemeSystemNoActionBar);
+    SYSTEM(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
 
     private final int theme;
     private final int themeNoActionBar;
