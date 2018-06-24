@@ -29,9 +29,9 @@
 
     <!-- action start -->
     <string name="action_access_points">"Access Points"</string>
-    <string name="action_channel_rating">"Channel Rating"</string>
+    <string name="action_channel_rating">"Εκτίμηση καναλιού"</string>
     <string name="action_channel_graph">"Channel Graph"</string>
-    <string name="action_time_graph">"Time Graph"</string>
+    <string name="action_time_graph">"Διάστημα του σήμα"</string>
     <string name="action_export">"Export"</string>
     <string name="action_channel_available">"Available Channels"</string>
     <string name="action_vendors">"Κατασκευαστής"</string>
@@ -80,7 +80,7 @@
     <string name="connection_view_title">"Connection Display"</string>
     <string name="connection_view_complete">"Ολόκληρο"</string>
     <string name="connection_view_compact">"Συμπαγής"</string>
-    <string name="connection_view_hide">"Aπόκρυψη"</string>
+    <string name="connection_view_hide">"Κρυμμένο"</string>
 
     <string name="graph_maximum_y_title">"Graph Maximum Signal Strength"</string>
     
