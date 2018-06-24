@@ -67,11 +67,11 @@
 
     <string name="sort_by_title">"Sort Access Points By"</string>
     <string name="sort_by_signal_strength">"Signal Strength"</string>
-    <string name="sort_by_channel">"Κανάλιa"</string>
+    <string name="sort_by_channel">"Κανάλια"</string>
 
     <string name="group_by_title">"Group Access Points By"</string>
     <string name="group_by_none">"Κανένα"</string>
-    <string name="group_by_channel">"Κανάλιa"</string>
+    <string name="group_by_channel">"Κανάλια"</string>
 
     <string name="ap_view_title">"Access Point Display"</string>
     <string name="ap_view_complete">"Ολόκληρο"</string>
@@ -82,11 +82,11 @@
     <string name="connection_view_compact">"Συμπαγής"</string>
     <string name="connection_view_hide">"Κρυμμένο"</string>
 
-    <string name="graph_maximum_y_title">"Graph Maximum Signal Strength"</string>
+    <string name="graph_maximum_y_title">"Γραφος της μέγιστης έντασης σήματον"</string>
     
     <string name="channel_graph_legend_title">"Channel Graph Legend Display"</string>
 
-
+    
     <string name="time_graph_legend_title">"Time Graph Legend Display"</string>
 
 
