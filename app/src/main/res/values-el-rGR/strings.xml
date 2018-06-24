@@ -30,8 +30,8 @@
     <!-- action start -->
     <string name="action_access_points">"Access Points"</string>
     <string name="action_channel_rating">"Εκτίμηση καναλιού"</string>
-    <string name="action_channel_graph">"Channel Graph"</string>
-    <string name="action_time_graph">"Διάστημα του σήμα"</string>
+    <string name="action_channel_graph">"Γραφος καναλιού"</string>
+    <string name="action_time_graph">"Γραφος του σήμα"</string>
     <string name="action_export">"Export"</string>
     <string name="action_channel_available">"Available Channels"</string>
     <string name="action_vendors">"Κατασκευαστής"</string>
@@ -45,33 +45,33 @@
     <string name="permission_msg">"As of Android Marshmallow, location permissions are required to perform a WiFi scan. You will be prompted to enable location services/permissions. Since this app does not require internet access, you can be confident that this app cannot transmit your location!"</string>
     <string name="export_not_available">"Export not available"</string>
 
-    <string name="channel_rating_best">"Best Channels:"</string>
-    <string name="channel_rating_best_none">"None"</string>
+    <string name="channel_rating_best">"καλύτερα κανάλια:"</string>
+    <string name="channel_rating_best_none">"Kανένας"</string>
     <string name="channel_rating_best_alternative">", try alternative WiFi Band"</string>
-    <string name="channel_rating_heading_rating">"Channel Rating"</string>
-    <string name="channel_rating_heading_number">"Channel Number"</string>
+    <string name="channel_rating_heading_rating">"Εκτίμηση καναλιού"</string>
+    <string name="channel_rating_heading_number">"Νούμερο καναλιού"</string>
     <string name="channel_rating_heading_count">"Access Point Count"</string>
     <string name="channel_short_name">"CH"</string>
 
-    <string name="graph_channel_axis_x">"WiFi Channels"</string>
-    <string name="graph_time_axis_x">"Scan Count"</string>
-    <string name="graph_axis_y">"Signal Strength (dBm)"</string>
+    <string name="graph_channel_axis_x">"Κανάλια του WiFi"</string>
+    <string name="graph_time_axis_x">"Σσαρώσεις"</string>
+    <string name="graph_axis_y">"Ισχύς σήματος (dBm)"</string>
 
     <!-- settings start -->
     <string name="start_menu_title">"Αρχή"</string>
 
     <string name="country_code_title">"Χώρα"</string>
 
-    <string name="scan_interval_title">"Διαστήματος σάρωσης"</string>
+    <string name="scan_interval_title">"Διάστημα σάρωσης"</string>
     <string name="scan_interval_summary">"%d δευτερολέπτα μεταξύ καθε σάρωση"</string>
 
     <string name="sort_by_title">"Sort Access Points By"</string>
     <string name="sort_by_signal_strength">"Signal Strength"</string>
-    <string name="sort_by_channel">"Channel"</string>
+    <string name="sort_by_channel">"Κανάλιa"</string>
 
     <string name="group_by_title">"Group Access Points By"</string>
-    <string name="group_by_none">"None"</string>
-    <string name="group_by_channel">"Channel"</string>
+    <string name="group_by_none">"Κανένα"</string>
+    <string name="group_by_channel">"Κανάλιa"</string>
 
     <string name="ap_view_title">"Access Point Display"</string>
     <string name="ap_view_complete">"Ολόκληρο"</string>
